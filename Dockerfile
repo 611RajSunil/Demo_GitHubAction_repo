@@ -1,2 +1,2 @@
 FROM openjdk:11.0
-COPY target/My-Calculator.jar My-Calculator.jar
+COPY target/sample-calculator.jar sample-calculator.jar
