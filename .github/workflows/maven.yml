@@ -27,8 +27,8 @@ jobs:
       with:
         image: rajkdsunil/demo_githubaction_repo
         registry: docker.in
-        username: ${{vars.DOCKER_USERNAME}}
-        password: ${{secrets.DOCKER_PASSWORD}}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
 
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
