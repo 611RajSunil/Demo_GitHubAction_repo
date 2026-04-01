@@ -27,7 +27,7 @@ jobs:
       with:
         image: rajkdsunil/demo_githubaction_repo
         registry: docker.in
-        username: ${{ secrets.DOCKER_USERNAME }}
+        username: ${{ vars.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
 
