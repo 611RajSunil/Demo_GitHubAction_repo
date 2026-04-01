@@ -1,2 +1,2 @@
-FROM openjdk:11-jre-slim-buster
+FROM eclipse-temurin:11-jre-alpine
 COPY target/sample-calculator.jar sample-calculator.jar
